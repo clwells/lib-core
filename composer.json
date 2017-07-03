@@ -1,0 +1,18 @@
+{
+  "name": "nocworx/lib-core",
+  "description": "The NocWorx Core Library",
+  "license": "MIT",
+  "require": {
+    "php": ">=7.0",
+    "ext-zip": "*",
+    "ext-xml": "*",
+    "ext-gmp": "*",
+    "ext-mbstring": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^5.0"
+  },
+  "autoload": {
+    "psr-4": {"NocWorx\\Lib\\": "src/NocWorx/Lib/"}
+  }
+}
